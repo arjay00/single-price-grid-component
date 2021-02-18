@@ -1,0 +1,33 @@
+.subs {
+  background-color: $cyan;
+
+  .subs__price {
+    font-weight: bold;
+    font-size: calcPxToRem(30);
+    display: flex;
+    align-items: center;
+
+    span {
+      font-weight: normal;
+      font-size: calcPxToRem(17);
+      opacity: 0.7;
+      margin-left: calcPxToRem(10);
+    }
+  }
+
+  .subs__signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: calcPxToRem(20);
+    font-weight: bold;
+    color: $white;
+    background: $yellow;
+
+    padding: calcPxToRem(12);
+    border-radius: 5px;
+    margin-top: calcPxToRem(32);
+  }
+}

@@ -1,0 +1,22 @@
+.community {
+  background-color: $white;
+
+  h2 {
+    color: $cyan;
+  }
+
+  h3 {
+    color: $yellow;
+    font-size: calcPxToRem(16);
+  }
+
+  p {
+    color: $grayBlue;
+    font-size: calcPxToRem(14);
+    line-height: 1.8;
+  }
+
+  @include breakpoint-up(large) {
+    grid-column: 1/ 3;
+  }
+}

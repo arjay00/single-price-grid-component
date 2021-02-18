@@ -1,0 +1,18 @@
+.pricing {
+  margin: 0 auto;
+  width: 50%;
+
+  & > div {
+    padding: calcPxToRem(24);
+  }
+
+  h2 {
+    font-size: calcPxToRem(21);
+    font-weight: bold;
+  }
+
+  @include breakpoint-up(large) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
